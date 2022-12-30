@@ -1,3 +1,10 @@
+Modified version of `spf13/cobra` with following dependencies removed:
+- inconshreveable/mousetrap
+- cpuguy83/go-md2man
+- gopkg.in/yaml
+
+---
+
 ![cobra logo](https://cloud.githubusercontent.com/assets/173412/10886352/ad566232-814f-11e5-9cd0-aa101788c117.png)
 
 Cobra is a library for creating powerful modern CLI applications.
@@ -80,7 +87,7 @@ which maintains the same interface while adding POSIX compliance.
 
 # Installing
 Using Cobra is easy. First, use `go get` to install the latest version
-of the library.     
+of the library.
 
 ```
 go get -u github.com/spf13/cobra@latest
