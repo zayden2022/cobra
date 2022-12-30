@@ -3,6 +3,12 @@ Modified version of `spf13/cobra` with following dependencies removed:
 - cpuguy83/go-md2man
 - gopkg.in/yaml
 
+To start using this fork, add following to you `go.mod`:
+
+```
+replace github.com/spf13/cobra => github.com/zayden2022/cobra v1.6.1-zf
+```
+
 ---
 
 ![cobra logo](https://cloud.githubusercontent.com/assets/173412/10886352/ad566232-814f-11e5-9cd0-aa101788c117.png)
